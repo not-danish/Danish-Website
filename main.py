@@ -1,7 +1,6 @@
 from flask import Flask, redirect, url_for, render_template, request, session
 import requests
 import json
-#from flask_sqlalchemy import SQLAlchemy
 import os
 import gevent
 from flask_sqlalchemy import SQLAlchemy

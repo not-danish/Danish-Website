@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--w3 css link-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+
+<!--Linking style.css-->
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+
+<!--Linking Google Font-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
+
+<!--Linking W3School's CSS-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<html>
+<title>Danish Siddiqui - Univeristy of Toronto Scarborough</title>
+  
+<header>
+<a>
+    <div class="image" href="">
+        <img src="https://media.discordapp.net/attachments/691820141025034361/849835872237256714/unknown.png?width=520&height=536" alt="Logo"/>
+    </div> 
+</a>
+    <div class="ul-1">
+        <ul>
+  <li><a href="/home">Resume</a></li>     
+  <li><a href="/home">Experience</a></li>
+  <li><a href="/login">Projects</a></li>
+  <li><a href="/login">Skills</a></li>
+  <li><a href="/home">Home</a></li>
+</ul>
+</div>
+
+</header>
+
+<body>
+{% block content %}{% endblock %}
+
+</body>
+</html>
