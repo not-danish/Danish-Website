@@ -1,9 +1,7 @@
 from flask import Flask, redirect, url_for, render_template, request, session
 import requests
 import json
-from datetime import timedelta
 #from flask_sqlalchemy import SQLAlchemy
-from signalrcore.hub_connection_builder import HubConnectionBuilder
 import os
 import gevent
 from flask_sqlalchemy import SQLAlchemy
