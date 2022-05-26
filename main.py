@@ -16,6 +16,11 @@ def home():
   url_for('static', filename='style.css')
   return render_template("index.html")
 
+@app.route("/projects")
+def projects():
+  url_for('static', filename='style.css')
+  return render_template("projects.html")
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8080)
     app_server = gevent.wsgi.WSGIServer(('0.0.0.0', 8080), app)
