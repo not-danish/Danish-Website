@@ -214,12 +214,12 @@ li a:hover {
   margin-left: 10%;
 }
 
-.git img {
+.socials img {
   width: 50px;
   height: 50px;
 }
 
-.git {
+.socials {
   margin-left: 10%;
   margin-top: 30px;
   padding-left: 1.5px;
@@ -228,6 +228,14 @@ li a:hover {
   border-radius: 19px;
   width: 55px;
   height: 55px;
+  float: left;
+}
+
+.social-icon {
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /* The typing effect */
