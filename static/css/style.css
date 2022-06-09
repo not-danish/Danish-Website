@@ -214,11 +214,27 @@ li a:hover {
   margin-left: 10%;
 }
 
+.sub-text {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  font-size: 42px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+
 .socials img {
   width: 50px;
   height: 50px;
 }
-
+.img_1 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.img_1 img{
+  width: 40%;
+}
 .socials {
   margin-left: 10%;
   margin-top: 30px;
@@ -236,6 +252,17 @@ li a:hover {
   content: "";
   clear: both;
   display: table;
+}
+
+.journey {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.journey img {
+  border-radius: 5px;
+  
 }
 
 /* The typing effect */
